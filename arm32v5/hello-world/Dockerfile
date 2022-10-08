@@ -1,3 +1,3 @@
 FROM scratch
-COPY arm32v5/hello-world/hello /
+COPY hello /
 CMD ["/hello"]
